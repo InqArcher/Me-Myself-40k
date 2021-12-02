@@ -5,7 +5,11 @@ ul,
 div,
 footer {
     color: rgba(218, 216, 216, 0.925);
+    font-family: Bold, Impact, sans-serif;
 }
+
+
+/*  Conduit ITC W02*/
 
 body {
     background-color: rgb(39, 38, 38);
@@ -38,14 +42,16 @@ a {
     display: flex;
 }
 
+.picbox {
+    width: 400px;
+}
+
 .picbox img {
-    width: 50%;
-    flex: 1;
+    width: 75%;
 }
 
 .picbox img:hover {
-    flex: 2;
-    width: 75%;
+    width: 100%;
 }
 
 #outrider {
