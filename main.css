@@ -24,7 +24,9 @@ li {
     list-style: none;
 }
 
-#navbar {
+#navbar,
+#navbar2,
+#navbar3 {
     display: flex;
     justify-content: flex-end;
 }
@@ -36,6 +38,15 @@ a:hover {
 a {
     color: white;
     text-decoration: none;
+}
+
+#space-marines,
+#csm,
+#orkies {
+    height: 32%;
+    width: auto;
+    max-height: 32%;
+    max-width: 32%;
 }
 
 #namokhi {
